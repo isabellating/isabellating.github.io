@@ -1,0 +1,413 @@
+body {
+  font-family: Futura;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #E2593F;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+p {
+  color: #8C8F44;
+  font-size: 30px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.sub {
+  color: #707070;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navlink {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.welcome {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #4D2424;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+}
+
+.welcome2 {
+  font-size: 35px;
+}
+
+.splash {
+  position: relative;
+  text-align: center;
+}
+
+.splash img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+
+.yogurt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.harvard {
+  display: flex;
+  flex-direction: row;
+}
+
+.porter {
+  display: flex;
+  flex-direction: row;
+}
+
+.icecream {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seasonal {
+  display: flex;
+  flex-direction: row;
+}
+
+.year {
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.flavors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flavor {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  max-width: 200px;
+  margin: 8px;
+}
+
+.flavor2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  max-width: 200px;
+  flex: 1;
+  margin: 8px;
+}
+
+.flavor img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.flavor2 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  max-width: 50px;
+  margin: 5px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.copyright {
+  text-align: center;
+  color: #707070;
+  font-size: 10px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.nutrtion {
+  color: #E2593F;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (min-width: 3600px) {
+  nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+  }
+
+  ul {
+    padding-right: 50px;
+  }
+
+  .navlink {
+    padding: 10px 30px;
+  }
+
+  .logo {
+    padding-top: 15px;
+    padding-left: 80px;
+    height: 200px;
+  }
+
+  .welcome {
+    font-size: 110px;
+  }
+
+  .welcome2 {
+    font-size: 70px;
+  }
+
+  .splash {
+    position: relative;
+    text-align: center;
+  }
+
+  .splash img {
+    height: 1200px;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  p {
+    font-size: 90px;
+  }
+
+  .sub {
+    font-size: 60px;
+  }
+
+  .harvard {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 25px;
+  }
+
+  .porter {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 25px;
+  }
+
+  .flavor {
+    max-width: 400px;
+  }
+
+  .flavor2 {
+    max-width: 400px;
+  }
+
+  .yogurt {
+    flex-direction: row;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .year {
+      grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  .social {
+    max-width: 200px;
+  }
+
+  .copyright {
+    font-size: 30px;
+  }
+
+  .nutrtion {
+    color: #E2593F;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+}
+
+@media (max-width: 950px) {
+  .hamburger {
+    display: block;
+    max-width: 50px;
+    margin-left: 50px;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 30px;
+    height: 100px;
+  }
+
+  .welcome {
+    font-size: 50px;
+  }
+
+  .welcome2 {
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width: 650px) {
+    .welcome {
+      font-size: 30px;
+      width: 100%;
+    }
+
+    .welcome2 {
+      font-size: 15px;
+    }
+
+    .splash img {
+      height: 400px;
+    }
+
+    .hamburger {
+      display: block;
+      max-width: 30px;
+      margin-left: 20px;
+    }
+
+    #navbar {
+      display: none;
+    }
+
+    nav {
+      padding-bottom: 5px;
+    }
+
+    .logo {
+      margin-right: 5px;
+      height: 50px;
+    }
+
+    .harvard {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    .porter {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    .year {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    .seasonal {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    .flavor {
+      max-width: 250px;
+    }
+
+    .flavor2 {
+      max-width: 250px;
+      margin: 8px;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 25px;
+    }
+
+    .sub {
+      font-size: 15px;
+    }
+
+    .social {
+      max-width: 70px;
+    }
+
+    .nutrtion {
+      color: #E2593F;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+  }
